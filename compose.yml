@@ -4,7 +4,7 @@ networks:
     name: ${PUBLISH_NETWORK}
 
 services:
-  postgredb:
+  postgres_admin:
     image: dpage/pgadmin4
     restart: always
     environment:
